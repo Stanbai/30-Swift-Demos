@@ -55,7 +55,6 @@
 
 /* Begin PBXFileReference section */
 		F602E55E1FADB74800228D96 /* Demo11CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo11CollectionViewCell.swift; sourceTree = "<group>"; };
-		F602E5601FADE57100228D96 /* food.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = food.json; path = "../../../../../黑马/UI加强/01-UI进阶-第12天(美团外卖04)/04-源代码/24-美团外卖(提示)/美团外卖/Classes/Home(首页)/ShopInfo/Others/food.json"; sourceTree = "<group>"; };
 		F602E5611FADF06000228D96 /* Ext+UILabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Ext+UILabel.swift"; path = "../../../../../新概念背诵手册APP/NECVersion2/NECHandBookVersionTwo/NECHandBookVersionTwo/Tools/Extension/Ext+UILabel.swift"; sourceTree = "<group>"; };
 		F602E5631FADF9B200228D96 /* CustomMoveTransion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMoveTransion.swift; sourceTree = "<group>"; };
 		F602E5651FAE038400228D96 /* CustomPopTransion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPopTransion.swift; sourceTree = "<group>"; };
@@ -233,7 +232,6 @@
 			isa = PBXGroup;
 			children = (
 				F602E5611FADF06000228D96 /* Ext+UILabel.swift */,
-				F602E5601FADE57100228D96 /* food.json */,
 				F64B13721FA61FF800A54B27 /* AppDelegate.swift */,
 				F6EB61291FA768A200B0731E /* MainVC.swift */,
 				F64B13741FA61FF800A54B27 /* ViewController.swift */,
