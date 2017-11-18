@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Demo20" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SpotifySignIn-logo" translatesAutoresizingMaskIntoConstraints="NO" id="FX5-jw-gW7">
+                                <rect key="frame" x="78" y="71" width="218" height="66"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="66" id="kgO-LI-GE8"/>
+                                    <constraint firstAttribute="width" constant="218" id="ytY-GP-MdT"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uKH-2o-1r8">
+                                <rect key="frame" x="0.0" y="622" width="187.5" height="45"/>
+                                <color key="backgroundColor" red="0.26977372170000002" green="0.26977372170000002" blue="0.26977372170000002" alpha="0.80385638299999995" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="odH-lH-2UD"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                                <state key="normal" title="Login">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GWM-D1-XHK">
+                                <rect key="frame" x="187.5" y="622" width="187.5" height="45"/>
+                                <color key="backgroundColor" red="0.090196078430000007" green="0.68235294120000001" blue="0.01176470588" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                                <state key="normal" title="Sign Up">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="GWM-D1-XHK" firstAttribute="leading" secondItem="uKH-2o-1r8" secondAttribute="trailing" id="CrH-W7-LSV"/>
+                            <constraint firstItem="FX5-jw-gW7" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="51" id="EqW-JS-EGQ"/>
+                            <constraint firstItem="GWM-D1-XHK" firstAttribute="height" secondItem="uKH-2o-1r8" secondAttribute="height" id="MBl-RM-gWK"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="GWM-D1-XHK" secondAttribute="trailing" id="OwR-I2-MsM"/>
+                            <constraint firstItem="GWM-D1-XHK" firstAttribute="leading" secondItem="uKH-2o-1r8" secondAttribute="trailing" id="Voo-c0-nQ2"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="GWM-D1-XHK" secondAttribute="bottom" id="ews-lj-PO5"/>
+                            <constraint firstItem="GWM-D1-XHK" firstAttribute="width" secondItem="uKH-2o-1r8" secondAttribute="width" id="lvD-Fb-Gre"/>
+                            <constraint firstItem="FX5-jw-gW7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="s1s-g0-AUP"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="uKH-2o-1r8" secondAttribute="bottom" id="w2E-NO-K11"/>
+                            <constraint firstItem="uKH-2o-1r8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="zWk-ol-uFT"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="SpotifySignIn-logo" width="218" height="66"/>
+    </resources>
+</document>
