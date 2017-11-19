@@ -21,7 +21,7 @@
 		F6DA38BA1FB848A0007B8DA0 /* VideoSplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DA38B81FB848A0007B8DA0 /* VideoSplashViewController.swift */; };
 		F6DA38BB1FB84BA3007B8DA0 /* moments.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F6DA38B41FB84271007B8DA0 /* moments.mp4 */; };
 		F6DA38C31FB85DCD007B8DA0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DA38C21FB85DCD007B8DA0 /* AppDelegate.swift */; };
-		F6DA38C51FB85DCD007B8DA0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DA38C41FB85DCD007B8DA0 /* ViewController.swift */; };
+		F6DA38C51FB85DCD007B8DA0 /* Demo21ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DA38C41FB85DCD007B8DA0 /* Demo21ViewController.swift */; };
 		F6DA38C81FB85DCD007B8DA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6DA38C61FB85DCD007B8DA0 /* Main.storyboard */; };
 		F6DA38CA1FB85DCD007B8DA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6DA38C91FB85DCD007B8DA0 /* Assets.xcassets */; };
 		F6DA38CD1FB85DCD007B8DA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6DA38CB1FB85DCD007B8DA0 /* LaunchScreen.storyboard */; };
@@ -49,7 +49,7 @@
 		F6DA38B81FB848A0007B8DA0 /* VideoSplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoSplashViewController.swift; sourceTree = "<group>"; };
 		F6DA38C01FB85DCD007B8DA0 /* Demo21.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo21.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6DA38C21FB85DCD007B8DA0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F6DA38C41FB85DCD007B8DA0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F6DA38C41FB85DCD007B8DA0 /* Demo21ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo21ViewController.swift; sourceTree = "<group>"; };
 		F6DA38C71FB85DCD007B8DA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F6DA38C91FB85DCD007B8DA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F6DA38CC1FB85DCD007B8DA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -135,7 +135,7 @@
 			children = (
 				F681CF1F1FB88ACD00F70C2A /* Ext+UIColor.swift */,
 				F6DA38C21FB85DCD007B8DA0 /* AppDelegate.swift */,
-				F6DA38C41FB85DCD007B8DA0 /* ViewController.swift */,
+				F6DA38C41FB85DCD007B8DA0 /* Demo21ViewController.swift */,
 				F681CF1D1FB8788000F70C2A /* AnimationView.swift */,
 				F6DA38C61FB85DCD007B8DA0 /* Main.storyboard */,
 				F6DA38C91FB85DCD007B8DA0 /* Assets.xcassets */,
@@ -302,7 +302,7 @@
 			files = (
 				F681CF1E1FB8788000F70C2A /* AnimationView.swift in Sources */,
 				F681CF201FB88ACE00F70C2A /* Ext+UIColor.swift in Sources */,
-				F6DA38C51FB85DCD007B8DA0 /* ViewController.swift in Sources */,
+				F6DA38C51FB85DCD007B8DA0 /* Demo21ViewController.swift in Sources */,
 				F6DA38C31FB85DCD007B8DA0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

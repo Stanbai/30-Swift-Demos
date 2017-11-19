@@ -10,13 +10,21 @@ import UIKit
 
 class AnimationView: UIView, CAAnimationDelegate {
 
+    enum AnimationStatus {
+        case normal
+        case animating
+        case pause
+    }
     
     var lineWidth: CGFloat = 10
     var lineLength: CGFloat = 100
     var lineMargin: CGFloat = 50
     var animationDuration: Double = 3.0
     
+    
     private var lines: [CAShapeLayer] = []
+    private(set) var status: AnimationStatus = .normal
+    
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -27,16 +35,17 @@ class AnimationView: UIView, CAAnimationDelegate {
         super.init(coder: aDecoder)
         setupUI()
         
-//        transform = CGAffineTransform.identity.rotated(by: rotateAngle(45.0))
+        transform = CGAffineTransform.identity.rotated(by: rotateAngle(45.0))
     }
+    
     
     func startAnimation() {
-//        rotateAnimation()
-//        lineToPointAnimation()
-        lineZoomInAnimation()
-//        pointToLineAnimation()
+        rotateAnimation()
+        lineToPointAnimation()
+        pointToLineAnimation()
     }
     
+
     fileprivate func setupUI() {
         layoutIfNeeded()
         lineLength = max(frame.width, frame.height)
@@ -73,11 +82,18 @@ class AnimationView: UIView, CAAnimationDelegate {
     
 
     func animationDidStart(_ anim: CAAnimation) {
-        
+        status = .animating
     }
     
     func animationDidStop(_ anim: CAAnimation, finished flag: Bool) {
-        
+                if flag {
+                    status = .normal
+                    DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 0.5, execute: {
+                        if self.status != .animating {
+                            self.startAnimation()
+                        }
+                    })
+                }
     }
 
 }
@@ -85,7 +101,6 @@ class AnimationView: UIView, CAAnimationDelegate {
  1,动画旋转了两圈
  2，第一圈旋转结束后，线段变成了点点
  3,第二圈旋转结束的时候，又从点点变成线段
- 4,第二圈旋转中，线段向中间靠拢，又恢复原来的距离
  */
 extension AnimationView {
     fileprivate func rotateAnimation() {
@@ -122,7 +137,7 @@ extension AnimationView {
     
     fileprivate func pointToLineAnimation() {
         let ani = CABasicAnimation.init(keyPath: "strokeEnd")
-        ani.beginTime = CACurrentMediaTime() + animationDuration
+        ani.beginTime = CACurrentMediaTime() + animationDuration * 0.75
         
         ani.fromValue = 0.0
         ani.toValue = 1.0
@@ -136,37 +151,6 @@ extension AnimationView {
         }
     }
     
-    fileprivate func lineZoomInAnimation() {
-        
-        for i in 0...3 {
-            var keyPath: String
-            if i % 2 == 1 {
-                keyPath = "transform.translation.y"
-            } else {
-                keyPath = "transform.translation.x"
-            }
-            
-        let ani = CABasicAnimation.init(keyPath: keyPath)
-        
-        ani.beginTime = CACurrentMediaTime()
-        
-        ani.fromValue = 0
-            if i % 2 == 1 {
-                ani.toValue = -lineLength
-            } else {
-                ani.toValue = lineLength
-            }
-        
-        ani.fillMode = kCAFillModeForwards
-        ani.isRemovedOnCompletion = false
-        ani.autoreverses = true
-        
-        ani.duration = animationDuration
-
-            lines[i].add(ani, forKey: "lineZoomInAnimation")
-
-        }
-    }
 }
 extension AnimationView {
     fileprivate func point(_ x: CGFloat, y: CGFloat) -> CGPoint {

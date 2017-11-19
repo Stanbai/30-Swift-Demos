@@ -20,12 +20,15 @@ class ViewController: VideoSplashViewController {
         // Dispose of any resources that can be recreated.
     }
 
+ 
     fileprivate func setupVideo() {
        let url = URL(fileURLWithPath: Bundle.main.path(forResource: "moments.mp4", ofType: nil)!)
             videoFrame = view.frame
             fillMode = .resizeAspectFill
             alwaysRepeat = true
-            sound = true
+        @IBAction func sizeValueChanged(_ sender: UISlider) {
+        }
+        sound = true
             startTime = 1.0
             alpha = 1.0
             

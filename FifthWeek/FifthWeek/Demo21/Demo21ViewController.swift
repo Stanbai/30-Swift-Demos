@@ -15,15 +15,23 @@
  */
 import UIKit
 
-class ViewController: UIViewController {
+class Demo21ViewController: UIViewController {
 
     @IBOutlet weak var animationView: AnimationView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
         
         animationView.startAnimation()
     }
+    
+    @IBAction func sizeValueChanged(_ sender: UISlider) {
+        animationView.transform = CGAffineTransform.identity.scaledBy(x: CGFloat(sender.value), y: CGFloat(sender.value))
+    }
+    
+    @IBAction func durationValueChanged(_ sender: UISlider) {
+        animationView.animationDuration = Double(sender.value)
+    }
+        
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
