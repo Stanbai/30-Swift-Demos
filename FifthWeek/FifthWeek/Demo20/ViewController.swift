@@ -23,19 +23,16 @@ class ViewController: VideoSplashViewController {
  
     fileprivate func setupVideo() {
        let url = URL(fileURLWithPath: Bundle.main.path(forResource: "moments.mp4", ofType: nil)!)
-            videoFrame = view.frame
-            fillMode = .resizeAspectFill
-            alwaysRepeat = true
-        @IBAction func sizeValueChanged(_ sender: UISlider) {
-        }
+        videoFrame = view.frame
+        fillMode = .resizeAspectFill
+        alwaysRepeat = true
         sound = true
-            startTime = 1.0
-            alpha = 1.0
-            
-            contentURL = url
-            view.isUserInteractionEnabled = false
-    
+        startTime = 1.0
+        alpha = 1.0
         
+        contentURL = url
+        view.isUserInteractionEnabled = false
+
 
     }
 
