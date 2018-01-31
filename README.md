@@ -1,8 +1,10 @@
 # 30-Swift-Demos
-Through 30 Demos study Swift basic grammer.
+All the demos will be updated with Swift 4.0, and compatible with iPhone X.
 
-All the demos will be updated with Swift 4.0, and compatible with iPhone X
+First Week: Simple UIKit components, like
+- Tip Calculator: UILabel, UITextField, UISlider
+- Name List: UITableView
 
-First Week: Simple UIKit components, like UILabel, UITextField, UISlider
-- Tip Calculator
 
+# Reach me
+Juejin: [非典型技术宅](https://juejin.im/timeline)

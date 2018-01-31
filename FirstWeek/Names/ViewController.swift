@@ -73,5 +73,9 @@ extension ViewController: UITableViewDataSource,UITableViewDelegate {
         return indexArray[section]
     }
     
+//    this mothed is not necessary
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
+    }
 }
 
