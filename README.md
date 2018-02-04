@@ -4,7 +4,8 @@ All the demos will be updated with Swift 4.0, and compatible with iPhone X.
 First Week: Simple UIKit components, like
 - Tip Calculator: UILabel, UITextField, UISlider
 - Name List: UITableView
-
+- StopWatch: UIButton,UILabel,DispatchSourceTimer
+- CityList: UILabel extension, Model, UITableView, Delegate
 
 # Project Index & GIF Showcase
 - [First Week](https://github.com/Stanbai/30-Swift-Demos/tree/master/FirstWeek)
