@@ -31,6 +31,11 @@
 		F69CA1DA2021FC08002C0D31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F69CA1D82021FC08002C0D31 /* Main.storyboard */; };
 		F69CA1DC2021FC08002C0D31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F69CA1DB2021FC08002C0D31 /* Assets.xcassets */; };
 		F69CA1DF2021FC08002C0D31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F69CA1DD2021FC08002C0D31 /* LaunchScreen.storyboard */; };
+		F6BE3055202712D6007193D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BE3054202712D6007193D1 /* AppDelegate.swift */; };
+		F6BE3057202712D6007193D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BE3056202712D6007193D1 /* ViewController.swift */; };
+		F6BE305A202712D6007193D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6BE3058202712D6007193D1 /* Main.storyboard */; };
+		F6BE305C202712D6007193D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6BE305B202712D6007193D1 /* Assets.xcassets */; };
+		F6BE305F202712D6007193D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6BE305D202712D6007193D1 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -80,6 +85,13 @@
 		F69CA1DB2021FC08002C0D31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F69CA1DE2021FC08002C0D31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F69CA1E02021FC08002C0D31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6BE3052202712D6007193D1 /* StopWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StopWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6BE3054202712D6007193D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F6BE3056202712D6007193D1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F6BE3059202712D6007193D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F6BE305B202712D6007193D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F6BE305E202712D6007193D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F6BE3060202712D6007193D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +124,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		F69CA1CF2021FC08002C0D31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6BE304F202712D6007193D1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -158,6 +177,7 @@
 				F644D25B1F9656410062C6D1 /* Names */,
 				F65D92271F9B3A6800BB467A /* CityList */,
 				F69CA1D32021FC08002C0D31 /* TipCalculator */,
+				F6BE3053202712D6007193D1 /* StopWatch */,
 				F680E5AD1F9654EE005AF21D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -170,6 +190,7 @@
 				F644D2731F97A0530062C6D1 /* Timer.app */,
 				F65D92261F9B3A6800BB467A /* CityList.app */,
 				F69CA1D22021FC08002C0D31 /* TipCalculator.app */,
+				F6BE3052202712D6007193D1 /* StopWatch.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -198,6 +219,19 @@
 				F69CA1E02021FC08002C0D31 /* Info.plist */,
 			);
 			path = TipCalculator;
+			sourceTree = "<group>";
+		};
+		F6BE3053202712D6007193D1 /* StopWatch */ = {
+			isa = PBXGroup;
+			children = (
+				F6BE3054202712D6007193D1 /* AppDelegate.swift */,
+				F6BE3056202712D6007193D1 /* ViewController.swift */,
+				F6BE3058202712D6007193D1 /* Main.storyboard */,
+				F6BE305B202712D6007193D1 /* Assets.xcassets */,
+				F6BE305D202712D6007193D1 /* LaunchScreen.storyboard */,
+				F6BE3060202712D6007193D1 /* Info.plist */,
+			);
+			path = StopWatch;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,6 +323,23 @@
 			productReference = F69CA1D22021FC08002C0D31 /* TipCalculator.app */;
 			productType = "com.apple.product-type.application";
 		};
+		F6BE3051202712D6007193D1 /* StopWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6BE3063202712D6007193D1 /* Build configuration list for PBXNativeTarget "StopWatch" */;
+			buildPhases = (
+				F6BE304E202712D6007193D1 /* Sources */,
+				F6BE304F202712D6007193D1 /* Frameworks */,
+				F6BE3050202712D6007193D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StopWatch;
+			productName = StopWatch;
+			productReference = F6BE3052202712D6007193D1 /* StopWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -319,6 +370,10 @@
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
+					F6BE3051202712D6007193D1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = F680E5A71F9654EE005AF21D /* Build configuration list for PBXProject "FirstWeek" */;
@@ -339,6 +394,7 @@
 				F644D2721F97A0530062C6D1 /* Timer */,
 				F65D92251F9B3A6800BB467A /* CityList */,
 				F69CA1D12021FC08002C0D31 /* TipCalculator */,
+				F6BE3051202712D6007193D1 /* StopWatch */,
 			);
 		};
 /* End PBXProject section */
@@ -391,6 +447,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F6BE3050202712D6007193D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6BE305F202712D6007193D1 /* LaunchScreen.storyboard in Resources */,
+				F6BE305C202712D6007193D1 /* Assets.xcassets in Resources */,
+				F6BE305A202712D6007193D1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -438,6 +504,15 @@
 			files = (
 				F69CA1D72021FC08002C0D31 /* ViewController.swift in Sources */,
 				F69CA1D52021FC08002C0D31 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6BE304E202712D6007193D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6BE3057202712D6007193D1 /* ViewController.swift in Sources */,
+				F6BE3055202712D6007193D1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -504,6 +579,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				F69CA1DE2021FC08002C0D31 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F6BE3058202712D6007193D1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6BE3059202712D6007193D1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F6BE305D202712D6007193D1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6BE305E202712D6007193D1 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -764,6 +855,36 @@
 			};
 			name = Release;
 		};
+		F6BE3061202712D6007193D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StopWatch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jianshu.StopWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F6BE3062202712D6007193D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StopWatch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jianshu.StopWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -817,6 +938,15 @@
 			buildConfigurations = (
 				F69CA1E12021FC08002C0D31 /* Debug */,
 				F69CA1E22021FC08002C0D31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6BE3063202712D6007193D1 /* Build configuration list for PBXNativeTarget "StopWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6BE3061202712D6007193D1 /* Debug */,
+				F6BE3062202712D6007193D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
