@@ -6,5 +6,20 @@ First Week: Simple UIKit components, like
 - Name List: UITableView
 
 
+# Project Index & GIF Showcase
+- [First Week](https://github.com/Stanbai/30-Swift-Demos/tree/master/FirstWeek)
+    - Project 01: TipCalculator
+    ![TipCalculator](https://github.com/Stanbai/30-Swift-Demos/blob/master/FirstWeek/TipCalculator.gif?raw=true)
+    
+    - Project 02: Names
+    ![Names](https://github.com/Stanbai/30-Swift-Demos/blob/master/FirstWeek/Names.gif?raw=true)
+    
+    - Project 03: StopWatch
+![StopWatch](https://github.com/Stanbai/30-Swift-Demos/blob/master/FirstWeek/StopWatch.gif?raw=true)
+
+    - Project 04: CityList
+    ![CityList](https://github.com/Stanbai/30-Swift-Demos/blob/master/FirstWeek/CityList.gif?raw=true)
+
+
 # Reach me
 Juejin: [非典型技术宅](https://juejin.im/timeline)
