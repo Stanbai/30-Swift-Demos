@@ -25,6 +25,10 @@ First Week: Simple UIKit components, like
     
     ![CityList](https://github.com/Stanbai/30-Swift-Demos/blob/master/FirstWeek/CityList.gif?raw=true)
 
+- [Second Week](https://github.com/Stanbai/30-Swift-Demos/tree/master/SecondWeek/)
+    - Project 05: ContactList
+    
+      ![ContactList](https://raw.githubusercontent.com/Stanbai/30-Swift-Demos/master/SecondWeek/ContactList.gif)
 
 # Reach me
 Juejin: [非典型技术宅](https://juejin.im/timeline)

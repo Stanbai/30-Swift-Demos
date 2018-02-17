@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>RECENT</string>
+		<key>info</key>
+		<array>
+			<dict>
+				<key>avatar</key>
+				<string>avatar-0</string>
+				<key>Name</key>
+				<string>Keith Hansen</string>
+				<key>Mobile</key>
+				<string>138675847311</string>
+				<key>Email</key>
+				<string>kcrkjhgfa@hotmail.com</string>
+				<key>Notes</key>
+				<string>So you have, I think, at least once record of what are the key parameters and what might one think about when one analysis this event.</string>
+			</dict>
+			<dict>
+				<key>avatar</key>
+				<string>avatar-1</string>
+				<key>Name</key>
+				<string>Jhon Appleseed</string>
+				<key>Mobile</key>
+				<string>13867586486</string>
+				<key>Email</key>
+				<string>fjdgkhfd@hotmail.com</string>
+				<key>Notes</key>
+				<string>So you have, I think, at least once record of what are the key parameters and what might one think about when one analysis this event.</string>
+			</dict>
+			<dict>
+				<key>avatar</key>
+				<string>avatar-2</string>
+				<key>Name</key>
+				<string>Mikle Jason</string>
+				<key>Mobile</key>
+				<string>76547584731</string>
+				<key>Email</key>
+				<string>fdghghfggfh@qq.com</string>
+				<key>Notes</key>
+				<string>So you have, I think, at least once record of what are the key parameters and what might one think about when one analysis this event.</string>
+			</dict>
+			<dict>
+				<key>avatar</key>
+				<string>avatar-3</string>
+				<key>Name</key>
+				<string>Laura Harper</string>
+				<key>Mobile</key>
+				<string>76547585473</string>
+				<key>Email</key>
+				<string>fjkkghlj@hotmail.com</string>
+				<key>Notes</key>
+				<string>So you have, I think, at least once record of what are the key parameters and what might one think about when one analysis this event.</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>info</key>
+		<array>
+			<dict>
+				<key>avatar</key>
+				<string>avatar-4</string>
+				<key>Name</key>
+				<string>Jonathan Hall</string>
+				<key>Mobile</key>
+				<string>79997584731</string>
+				<key>Email</key>
+				<string>fhjdbgklfd@hotmail.com</string>
+				<key>Notes</key>
+				<string>So you have, I think, at least once record of what are the key parameters and what might one think about when one analysis this event.</string>
+			</dict>
+			<dict>
+				<key>avatar</key>
+				<string>avatar-5</string>
+				<key>Name</key>
+				<string>Sharon Sanchez</string>
+				<key>Mobile</key>
+				<string>79997585531</string>
+				<key>Email</key>
+				<string>jkltertt@qq.com</string>
+				<key>Notes</key>
+				<string>So you have, I think, at least once record of what are the key parameters and what might one think about when one analysis this event.</string>
+			</dict>
+			<dict>
+				<key>avatar</key>
+				<string>avatar-6</string>
+				<key>Name</key>
+				<string>Daniel Morgan</string>
+				<key>Mobile</key>
+				<string>79997584766</string>
+				<key>Email</key>
+				<string>asddfdf@qq.com</string>
+				<key>Notes</key>
+				<string>So you have, I think, at least once record of what are the key parameters and what might one think about when one analysis this event.</string>
+			</dict>
+		</array>
+		<key>title</key>
+		<string>FRIENDS</string>
+	</dict>
+</array>
+</plist>
