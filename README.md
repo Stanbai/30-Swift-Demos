@@ -7,6 +7,9 @@ First Week: Simple UIKit components, like
 - StopWatch: UIButton,UILabel,DispatchSourceTimer
 - CityList: UILabel extension, Model, UITableView, Delegate
 
+Second Week: UITableView
+- ContactList: UITableViewController, NavigationController
+
 # Project Index & GIF Showcase
 - [First Week](https://github.com/Stanbai/30-Swift-Demos/tree/master/FirstWeek)
     - Project 01: TipCalculator
