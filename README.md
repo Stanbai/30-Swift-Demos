@@ -7,8 +7,9 @@ First Week: Simple UIKit components, like
 - StopWatch: UIButton,UILabel,DispatchSourceTimer
 - CityList: UILabel extension, Model, UITableView, Delegate
 
-Second Week: UITableView
+Second Week: UITableView, UICollectionView
 - ContactList: UITableViewController, NavigationController
+- CardTable: UICollectionView
 
 # Project Index & GIF Showcase
 - [First Week](https://github.com/Stanbai/30-Swift-Demos/tree/master/FirstWeek)
@@ -33,5 +34,8 @@ Second Week: UITableView
     
       ![ContactList](https://raw.githubusercontent.com/Stanbai/30-Swift-Demos/master/SecondWeek/ContactList.gif)
 
+- Project 06: CardTable
+
+![CardTable](https://github.com/Stanbai/30-Swift-Demos/blob/master/SecondWeek/CardTable.gif?raw=true)
 # Reach me
 Juejin: [非典型技术宅](https://juejin.im/timeline)
