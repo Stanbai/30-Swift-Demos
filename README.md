@@ -11,6 +11,7 @@ Second Week: UITableView, UICollectionView
 - ContactList: UITableViewController, NavigationController
 - CardTable: UICollectionView
 - Todo List: UITableView
+- SwipeableCell: UITableView, UIActivityViewController, UIAlertController
 
 # Project Index & GIF Showcase
 - [First Week](https://github.com/Stanbai/30-Swift-Demos/tree/master/FirstWeek)
@@ -42,5 +43,7 @@ Second Week: UITableView, UICollectionView
 - Project 07: Todo List
 
 ![Todo List](https://github.com/Stanbai/30-Swift-Demos/blob/master/SecondWeek/TodoList.gif?raw=true)
+
+![SwipeableCell](https://github.com/Stanbai/30-Swift-Demos/blob/master/SecondWeek/TodoList.gif?raw=true)
 # Reach me
 Juejin: [非典型技术宅](https://juejin.im/timeline)
