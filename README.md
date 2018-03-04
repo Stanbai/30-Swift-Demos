@@ -41,6 +41,6 @@ Second Week: UITableView, UICollectionView
 
 - Project 07: Todo List
 
-![Todo List](https://github.com/Stanbai/30-Swift-Demos/blob/master/SecondWeek/CardTable.gif?raw=true)
+![Todo List](https://github.com/Stanbai/30-Swift-Demos/blob/master/SecondWeek/TodoList.gif?raw=true)
 # Reach me
 Juejin: [非典型技术宅](https://juejin.im/timeline)
