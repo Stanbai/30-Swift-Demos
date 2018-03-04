@@ -54,7 +54,7 @@ Third Week: UITableView
 - [Third Week](https://github.com/Stanbai/30-Swift-Demos/tree/master/ThirdWeek/)
     - Project 09: RSS Reader
     
-          ![RSSReader](https://github.com/Stanbai/30-Swift-Demos/blob/master/ThirdWeek/RssReader.gif?raw=true)
+      ![RSSReader](https://github.com/Stanbai/30-Swift-Demos/blob/master/ThirdWeek/RssReader.gif?raw=true)
 
 # Reach me
 Juejin: [Stanbai](https://juejin.im/user/57ff1b597db2a2005973de4c/)
