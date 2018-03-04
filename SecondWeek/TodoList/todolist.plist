@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>date</key>
+		<string>2018-02-10</string>
+		<key>icon</key>
+		<string>talk</string>
+		<key>title</key>
+		<string>Talk with Frank</string>
+	</dict>
+	<dict>
+		<key>date</key>
+		<string>2018-01-28</string>
+		<key>icon</key>
+		<string>shop</string>
+		<key>title</key>
+		<string>Supermarket shopping</string>
+	</dict>
+	<dict>
+		<key>date</key>
+		<string>2017-12-25</string>
+		<key>icon</key>
+		<string>phone</string>
+		<key>title</key>
+		<string>Say Merry Chrismas to Nan</string>
+	</dict>
+	<dict>
+		<key>date</key>
+		<string>2017-10-31</string>
+		<key>icon</key>
+		<string>air</string>
+		<key>title</key>
+		<string>Flight CA2314</string>
+	</dict>
+</array>
+</plist>

@@ -10,6 +10,7 @@ First Week: Simple UIKit components, like
 Second Week: UITableView, UICollectionView
 - ContactList: UITableViewController, NavigationController
 - CardTable: UICollectionView
+- Todo List: UITableView
 
 # Project Index & GIF Showcase
 - [First Week](https://github.com/Stanbai/30-Swift-Demos/tree/master/FirstWeek)
@@ -37,5 +38,9 @@ Second Week: UITableView, UICollectionView
 - Project 06: CardTable
 
 ![CardTable](https://github.com/Stanbai/30-Swift-Demos/blob/master/SecondWeek/CardTable.gif?raw=true)
+
+- Project 07: Todo List
+
+![Todo List](https://github.com/Stanbai/30-Swift-Demos/blob/master/SecondWeek/CardTable.gif?raw=true)
 # Reach me
 Juejin: [非典型技术宅](https://juejin.im/timeline)

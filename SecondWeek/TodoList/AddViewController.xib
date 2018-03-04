@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AddViewController" customModule="TodoList" customModuleProvider="target">
+            <connections>
+                <outlet property="datePicker" destination="VAf-kW-uLC" id="XCG-GM-g2R"/>
+                <outlet property="doneBtn" destination="R2w-Db-Y2q" id="acp-go-msR"/>
+                <outlet property="phoneBtn" destination="G8D-Zv-E9T" id="cqi-rm-LZ6"/>
+                <outlet property="planeBtn" destination="76G-mg-y3k" id="N0e-bY-unq"/>
+                <outlet property="shopBtn" destination="N6l-tj-6VC" id="hC0-Jp-wxt"/>
+                <outlet property="talkBtn" destination="Hg3-ZL-xnF" id="Lgt-Mv-yRF"/>
+                <outlet property="titleTextField" destination="l9c-c0-aL0" id="147-1L-rpu"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleAspectFill" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="mPJ-2F-RHC">
+                    <rect key="frame" x="87.5" y="50" width="200" height="50"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hg3-ZL-xnF">
+                            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="50" id="AJo-fZ-LU7"/>
+                                <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="50" id="EGD-3V-oDX"/>
+                            </constraints>
+                            <state key="normal" image="talk_de"/>
+                            <state key="selected" image="talk"/>
+                            <connections>
+                                <action selector="talkBtnClick:" destination="-1" eventType="touchUpInside" id="4Fc-Gr-lim"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G8D-Zv-E9T">
+                            <rect key="frame" x="50" y="0.0" width="50" height="50"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="50" id="QUO-OA-dL1"/>
+                                <constraint firstAttribute="height" constant="50" id="Ssq-oJ-vpc"/>
+                            </constraints>
+                            <state key="normal" image="phone_de"/>
+                            <state key="selected" image="phone"/>
+                            <connections>
+                                <action selector="phoneBtnClick:" destination="-1" eventType="touchUpInside" id="UsL-VZ-Ia2"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N6l-tj-6VC">
+                            <rect key="frame" x="100" y="0.0" width="50" height="50"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="50" id="CTn-Vl-YQj"/>
+                                <constraint firstAttribute="height" constant="50" id="nMl-nE-Dpk"/>
+                            </constraints>
+                            <state key="normal" image="shop_de"/>
+                            <state key="selected" image="shop"/>
+                            <connections>
+                                <action selector="shopBtnClick:" destination="-1" eventType="touchUpInside" id="JWU-Bt-zOd"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="76G-mg-y3k">
+                            <rect key="frame" x="150" y="0.0" width="50" height="50"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="50" id="Hc9-9U-2Hh"/>
+                                <constraint firstAttribute="width" constant="50" id="Jfc-QA-VTa"/>
+                            </constraints>
+                            <state key="normal" image="air_de"/>
+                            <state key="selected" image="air"/>
+                            <connections>
+                                <action selector="planeBtnClick:" destination="-1" eventType="touchUpInside" id="ju9-o5-gfs"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                </stackView>
+                <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="6qa-wI-gKN">
+                    <rect key="frame" x="30" y="130" width="315" height="30"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="To Do Title:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jn3-7Z-KvY">
+                            <rect key="frame" x="0.0" y="5" width="86.5" height="20.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="l9c-c0-aL0">
+                            <rect key="frame" x="106.5" y="0.0" width="208.5" height="30"/>
+                            <nil key="textColor"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                    </subviews>
+                </stackView>
+                <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="VAf-kW-uLC">
+                    <rect key="frame" x="0.0" y="190" width="375" height="216"/>
+                    <date key="date" timeIntervalSinceReferenceDate="541349777.35487998">
+                        <!--2018-02-26 14:56:17 +0000-->
+                    </date>
+                </datePicker>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R2w-Db-Y2q">
+                    <rect key="frame" x="169" y="436" width="37" height="30"/>
+                    <state key="normal" title="Done"/>
+                    <connections>
+                        <action selector="doneBtnClick:" destination="-1" eventType="touchUpInside" id="aww-se-rjq"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="VAf-kW-uLC" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="1Dp-rA-T0f"/>
+                <constraint firstItem="VAf-kW-uLC" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="BP2-E2-kQc"/>
+                <constraint firstItem="6qa-wI-gKN" firstAttribute="top" secondItem="mPJ-2F-RHC" secondAttribute="bottom" constant="30" id="J4f-mN-clb"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="6qa-wI-gKN" secondAttribute="trailing" constant="30" id="UaU-e3-o4B"/>
+                <constraint firstItem="R2w-Db-Y2q" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="VD8-Pa-HX0"/>
+                <constraint firstItem="VAf-kW-uLC" firstAttribute="top" secondItem="6qa-wI-gKN" secondAttribute="bottom" constant="30" id="Wsm-oj-zkT"/>
+                <constraint firstItem="R2w-Db-Y2q" firstAttribute="top" secondItem="VAf-kW-uLC" secondAttribute="bottom" constant="30" id="Yim-Y4-qQF"/>
+                <constraint firstItem="mPJ-2F-RHC" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="30" id="eAe-Vj-DMf"/>
+                <constraint firstItem="6qa-wI-gKN" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="30" id="gPa-q4-rAd"/>
+                <constraint firstItem="6qa-wI-gKN" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="jEs-88-YWN"/>
+                <constraint firstItem="mPJ-2F-RHC" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="zPi-ne-hwW"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="air" width="64" height="64"/>
+        <image name="air_de" width="21" height="21"/>
+        <image name="phone" width="21" height="21"/>
+        <image name="phone_de" width="21" height="21"/>
+        <image name="shop" width="21" height="21"/>
+        <image name="shop_de" width="21" height="21"/>
+        <image name="talk" width="21" height="21"/>
+        <image name="talk_de" width="21" height="21"/>
+    </resources>
+</document>
