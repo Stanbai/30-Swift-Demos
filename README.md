@@ -44,6 +44,6 @@ Second Week: UITableView, UICollectionView
 
 ![Todo List](https://github.com/Stanbai/30-Swift-Demos/blob/master/SecondWeek/TodoList.gif?raw=true)
 
-![SwipeableCell](https://github.com/Stanbai/30-Swift-Demos/blob/master/SecondWeek/TodoList.gif?raw=true)
+![SwipeableCell](https://github.com/Stanbai/30-Swift-Demos/blob/master/SecondWeek/SwipeableCell.gif?raw=true)
 # Reach me
 Juejin: [非典型技术宅](https://juejin.im/timeline)
