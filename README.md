@@ -46,4 +46,4 @@ Second Week: UITableView, UICollectionView
 
 ![SwipeableCell](https://github.com/Stanbai/30-Swift-Demos/blob/master/SecondWeek/SwipeableCell.gif?raw=true)
 # Reach me
-Juejin: [非典型技术宅](https://juejin.im/timeline)
+Juejin: [Stanbai](https://juejin.im/user/57ff1b597db2a2005973de4c/)
