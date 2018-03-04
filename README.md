@@ -13,6 +13,9 @@ Second Week: UITableView, UICollectionView
 - Todo List: UITableView
 - SwipeableCell: UITableView, UIActivityViewController, UIAlertController
 
+Third Week: UITableView
+- RSSReader: UITableView
+
 # Project Index & GIF Showcase
 - [First Week](https://github.com/Stanbai/30-Swift-Demos/tree/master/FirstWeek)
     - Project 01: TipCalculator
@@ -36,14 +39,22 @@ Second Week: UITableView, UICollectionView
     
       ![ContactList](https://raw.githubusercontent.com/Stanbai/30-Swift-Demos/master/SecondWeek/ContactList.gif)
 
-- Project 06: CardTable
+    - Project 06: CardTable
 
-![CardTable](https://github.com/Stanbai/30-Swift-Demos/blob/master/SecondWeek/CardTable.gif?raw=true)
+      ![CardTable](https://github.com/Stanbai/30-Swift-Demos/blob/master/SecondWeek/CardTable.gif?raw=true)
 
-- Project 07: Todo List
+    - Project 07: Todo List
 
-![Todo List](https://github.com/Stanbai/30-Swift-Demos/blob/master/SecondWeek/TodoList.gif?raw=true)
+      ![Todo List](https://github.com/Stanbai/30-Swift-Demos/blob/master/SecondWeek/TodoList.gif?raw=true)
 
-![SwipeableCell](https://github.com/Stanbai/30-Swift-Demos/blob/master/SecondWeek/SwipeableCell.gif?raw=true)
+    - Project 08: Swipeable Cell
+
+      ![SwipeableCell](https://github.com/Stanbai/30-Swift-Demos/blob/master/SecondWeek/SwipeableCell.gif?raw=true)
+
+- [Third Week](https://github.com/Stanbai/30-Swift-Demos/tree/master/ThirdWeek/)
+    - Project 09: RSS Reader
+    
+          ![RSSReader](https://github.com/Stanbai/30-Swift-Demos/blob/master/ThirdWeek/RssReader.gif?raw=true)
+
 # Reach me
 Juejin: [Stanbai](https://juejin.im/user/57ff1b597db2a2005973de4c/)
