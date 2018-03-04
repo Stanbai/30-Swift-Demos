@@ -58,6 +58,7 @@ Third Week: UITableView
       ![RSSReader](https://github.com/Stanbai/30-Swift-Demos/blob/master/ThirdWeek/RssReader.gif?raw=true)
 
     - Project 10: Animate TableView
+    
       ![AnimateTableView](https://github.com/Stanbai/30-Swift-Demos/blob/master/ThirdWeek/AnimateTableView.gif?raw=true)
 # Reach me
 Juejin: [Stanbai](https://juejin.im/user/57ff1b597db2a2005973de4c/)
