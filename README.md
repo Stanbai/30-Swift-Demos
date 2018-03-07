@@ -16,6 +16,7 @@ Second Week: UITableView, UICollectionView
 Third Week: UITableView
 - RSSReader: UITableView
 - Animate TableView: UITableView, UIView Animate
+- SearchBar in TableView: UITableView, UISearchBar
 
 # Project Index & GIF Showcase
 - [First Week](https://github.com/Stanbai/30-Swift-Demos/tree/master/FirstWeek)
@@ -60,5 +61,10 @@ Third Week: UITableView
     - Project 10: Animate TableView
     
       ![AnimateTableView](https://github.com/Stanbai/30-Swift-Demos/blob/master/ThirdWeek/AnimateTableView.gif?raw=true)
+
+    - Project 11: SearchBar in TableView
+
+    ![SearchBar in TableView](https://github.com/Stanbai/30-Swift-Demos/blob/master/ThirdWeek/searchBarInTableView.gif?raw=true)
+    
 # Reach me
 Juejin: [Stanbai](https://juejin.im/user/57ff1b597db2a2005973de4c/)
