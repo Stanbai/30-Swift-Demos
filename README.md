@@ -18,6 +18,9 @@ Third Week: UITableView
 - Animate TableView: UITableView, UIView Animate
 - SearchBar in TableView: UITableView, UISearchBar
 
+Forth Week: UIScrollView
+- IntroduceNewFeatures: UIScrollView, UIPageControl
+
 # Project Index & GIF Showcase
 - [First Week](https://github.com/Stanbai/30-Swift-Demos/tree/master/FirstWeek)
     - Project 01: TipCalculator
@@ -66,5 +69,11 @@ Third Week: UITableView
 
     ![SearchBar in TableView](https://github.com/Stanbai/30-Swift-Demos/blob/master/ThirdWeek/searchBarInTableView.gif?raw=true)
     
+ - [Forth Week](https://github.com/Stanbai/30-Swift-Demos/tree/master/ForthWeek/)
+ 
+    - IntroduceNewFeatures: UIScrollView, UIPageControl
+    
+    ![Introduce New Features](https://github.com/Stanbai/30-Swift-Demos/blob/master/ForthWeek/newFeatures.gif?raw=true)
+
 # Reach me
 Juejin: [Stanbai](https://juejin.im/user/57ff1b597db2a2005973de4c/)

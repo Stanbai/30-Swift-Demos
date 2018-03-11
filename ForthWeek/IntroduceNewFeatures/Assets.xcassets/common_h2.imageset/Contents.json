@@ -6,11 +6,11 @@
     },
     {
       "idiom" : "universal",
+      "filename" : "common_h2.jpg",
       "scale" : "2x"
     },
     {
       "idiom" : "universal",
-      "filename" : "twitter.png",
       "scale" : "3x"
     }
   ],
