@@ -20,6 +20,7 @@ Third Week: UITableView
 
 Forth Week: UIScrollView
 - IntroduceNewFeatures: UIScrollView, UIPageControl
+- Auto ScrollView: UIScrollView, UIPageControl, Timer
 
 # Project Index & GIF Showcase
 - [First Week](https://github.com/Stanbai/30-Swift-Demos/tree/master/FirstWeek)
@@ -67,13 +68,17 @@ Forth Week: UIScrollView
 
     - Project 11: SearchBar in TableView
 
-    ![SearchBar in TableView](https://github.com/Stanbai/30-Swift-Demos/blob/master/ThirdWeek/searchBarInTableView.gif?raw=true)
+     ![SearchBar in TableView](https://github.com/Stanbai/30-Swift-Demos/blob/master/ThirdWeek/searchBarInTableView.gif?raw=true)
     
  - [Forth Week](https://github.com/Stanbai/30-Swift-Demos/tree/master/ForthWeek/)
  
-    - IntroduceNewFeatures: UIScrollView, UIPageControl
+    -  Project 12: Introduce New Features
     
-    ![Introduce New Features](https://github.com/Stanbai/30-Swift-Demos/blob/master/ForthWeek/newFeatures.gif?raw=true)
+     ![Introduce New Features](https://github.com/Stanbai/30-Swift-Demos/blob/master/ForthWeek/newFeatures.gif?raw=true)
+
+    -  Project 13: Auto ScrollView
+
+     ![autoScrollView](https://github.com/Stanbai/30-Swift-Demos/blob/master/ForthWeek/autoScrollView.gif?raw=true)
 
 # Reach me
 Juejin: [Stanbai](https://juejin.im/user/57ff1b597db2a2005973de4c/)
