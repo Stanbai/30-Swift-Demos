@@ -21,6 +21,7 @@ Third Week: UITableView
 Forth Week: UIScrollView
 - IntroduceNewFeatures: UIScrollView, UIPageControl
 - Auto ScrollView: UIScrollView, UIPageControl, Timer
+- Hover Tap: UIScrollView, AutoLayout Priority
 
 # Project Index & GIF Showcase
 - [First Week](https://github.com/Stanbai/30-Swift-Demos/tree/master/FirstWeek)
@@ -79,6 +80,10 @@ Forth Week: UIScrollView
     -  Project 13: Auto ScrollView
 
      ![autoScrollView](https://github.com/Stanbai/30-Swift-Demos/blob/master/ForthWeek/autoScrollView.gif?raw=true)
+
+    -  Project 14: Hover Tap
+
+     ![hoverTap](https://github.com/Stanbai/30-Swift-Demos/blob/master/ForthWeek/hoverTap.gif?raw=true)
 
 # Reach me
 Juejin: [Stanbai](https://juejin.im/user/57ff1b597db2a2005973de4c/)
